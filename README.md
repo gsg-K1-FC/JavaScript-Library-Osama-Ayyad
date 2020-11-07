@@ -8,4 +8,5 @@
 <br><br>
 <h1>Why did I do this?</h1>
 
+<p>This website was made under the supervision of Gaza Sky Geeks, as part of one of its Fundamentals course of web development’s activities, which seeks to apply the skills we have acquired in the past three weeks in html and css courses.
 </p>
