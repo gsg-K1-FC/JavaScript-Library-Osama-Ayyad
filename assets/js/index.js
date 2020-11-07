@@ -1,5 +1,5 @@
-let allBooks = localStorage.getItem("books");
-let books =  [
+let allBooks = JSON.parse(localStorage.getItem("my_books"));
+let books = allBooks ? allBooks :  [
             {title: 'A Smarter Way to Learn JavaScript', author: 'Mark Myers', image: './assets/images/1.jpg'},
             {title: 'Eloquent JavaScript', author: 'Marjin Haverbeke', image: './assets/images/2.jpg'},
             {title: 'JavaScript & JQuery: Interactive Front-End Web Development', author: 'Jon Duckett', image: './assets/images/3.png'},
@@ -42,7 +42,7 @@ function showBooks(){
     }
     );
 
-   // localStorage.setItem("books", JSON.stringify(books));
+    localStorage.setItem("my_books", JSON.stringify(books));
 }
 
 document.getElementById("add-btn").addEventListener("click", function(e){
