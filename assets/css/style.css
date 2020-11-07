@@ -19,26 +19,35 @@
 
 }
 
-.cards{
-    margin: 10px;
-    padding: 10px;
+#cards{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    
+    
+    
 
+}
+.container{
+    width: 97%;
+    border:brown 10px solid;
+    margin: 10px;
 }
 
 .cardItem{
-    width: 100%;
-    height: 25%;
-    border: 2px solid black;
-    border-radius: 20px;
-    box-shadow: black 5px 5px;
-}
-.cardContent{
-    display: inline;
-    margin-left: 20px;
+  width:23.469%;
+    height: 490px;
+    border: 1px solid;
     padding: 10px;
+    border-bottom: solid 5px brown;
+    border-left: none;
+    border-right: none;
+    
+    
 }
+
+
+
 .addBook{
     width: 400px;
     height: 340px;
@@ -63,8 +72,26 @@
     width: 290px;
     height: 23px;
 }
-.add-btn{
+#add-btn{
     width: 100px;
     height: 40px;
     margin-left: 90px;
+}
+.cardImage{
+    width: 100%;
+    height: 420px;
+
+}
+.cardTitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6px;
+}
+.cardAuthor{
+    color:blue;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2px;
 }
