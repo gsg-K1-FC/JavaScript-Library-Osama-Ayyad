@@ -29,5 +29,5 @@
         <li>in the third input text add a book image </li>
         <h3>so after do this steps the new book is added to the shilf and stored in local storage. </h3>
     </ul>
-    <li>javaScript</li>
+    
 </ul>
