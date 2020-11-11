@@ -1,5 +1,5 @@
 let allBooks = JSON.parse(localStorage.getItem("my_books"));
-let books = allBooks ? allBooks :  [
+let books = allBooks ? allBooks : [
             {title: 'A Smarter Way to Learn JavaScript', author: 'Mark Myers', image: './assets/images/1.jpg'},
             {title: 'Eloquent JavaScript', author: 'Marjin Haverbeke', image: './assets/images/2.jpg'},
             {title: 'JavaScript & JQuery: Interactive Front-End Web Development', author: 'Jon Duckett', image: './assets/images/3.png'},
