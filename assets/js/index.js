@@ -47,18 +47,22 @@ function showBooks(){
 
 document.getElementById("add-btn").addEventListener("click", function(e){
     e.preventDefault();
-    let bTitle=document.getElementById("Btitle").value;
-    let bAuthor=document.getElementById("Bauthor").value;
-    let bImg=document.getElementById("Bimg").value;
-
-    if(bTitle === "" || bTitle === " " ){
+    
+    let bTitle=document.getElementById("Btitle").value.trim();
+    let bAuthor=document.getElementById("Bauthor").value.trim();
+    let bImg=document.getElementById("Bimg").value.trim();
+    
+    if(bTitle === "" ){
         alert("Please Enter the Title of the Book");
+        document.getElementById("Btitle").value="";
     }
-    else if(bAuthor === "" || bAuthor === " "){
+    else if(bAuthor === "" ){
         alert("Please Enter the Auther Name of the Book");
+        document.getElementById("Bauthor").value="";
     }
-    else if(bImg === "" || bImg === " "){
+    else if(bImg === ""){
         alert("Please Enter the Image of the Book");
+        document.getElementById("Bimg").value="";
     }
     else {
         books.push({title: bTitle, author: bAuthor, image: bImg });
