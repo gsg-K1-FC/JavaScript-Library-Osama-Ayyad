@@ -24,11 +24,9 @@
     <li>at the bottom you see form for add a new book.</li>
     <h3>Follow this steps to add a new book to the shilf: </h3>
     <ul>
-        
         <li>in the first input text add a book name </li>
         <li>in the second input text add a book author name </li>
         <li>in the third input text add a book image </li>
-        
     </ul>
     <h3>so after do this steps the new book is added to the shilf and stored in local storage. </h3>
     
